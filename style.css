@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", serif;
+  font-weight: 200;
+}
+
+.hero_container {
+  background-image: url(background.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_container {
+  color: beige;
+  max-width: 180vh;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.lg_intro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 300%;
+  align-content: center;
+  padding-left: 40vh;
+  letter-spacing: 10px;
+  text-decoration: solid;
+  font-family: "Anton", serif;
+}
+.h1_container {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 210%;
+  align-content: center;
+  padding-left: 60vh;
+  
+}
+.h2_container {
+  font-size: 120%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h3_container{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    
+}
