@@ -33,3 +33,19 @@ document.addEventListener("DOMContentLoaded", function () {
     let originalText = titleText.innerText;
     typeEffect(titleText, originalText, 150); // Speed of typing effect
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const texts = ["Sathvik-MM/18", "Hello Visitors!"];
+    let index = 0;
+
+    function loopText() {
+        let titleElement = document.querySelector(".lg_intro"); // Target the title
+        titleElement.style.opacity = "0"; // Fade out effect
+        setTimeout(() => {
+            titleElement.innerText = texts[index]; // Change text
+            titleElement.style.opacity = "1"; // Fade in effect
+            index = (index + 1) % texts.length; // Loop back to first text
+        }, 500); // Delay before changing text
+    }
+
+    setInterval(loopText, 3000); // Change text every 3 seconds
+});
