@@ -49,3 +49,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(loopText, 3000); // Change text every 3 seconds
 });
+
